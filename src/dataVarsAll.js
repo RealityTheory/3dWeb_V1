@@ -21,10 +21,10 @@ let global_engineRef;
 
 let global_enableShadows = true;
 let global_ambientSkyLightHex = "AADBFB";
-let envTex_environmentTex = "/assets/environments/environment.dds";
+let envTex_environmentTex = "assets/environments/environment.dds";
 
-let globalTex_muteTexture = "/assets/2D/music/mute.png";
-let globalTex_unmuteTexture = "/assets/2D/music/unmute.png";
+let globalTex_muteTexture = "assets/2D/music/mute.png";
+let globalTex_unmuteTexture = "assets/2D/music/unmute.png";
 
 //Other
 let global_mouseX = 0;
