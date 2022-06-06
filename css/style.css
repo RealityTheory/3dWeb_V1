@@ -1,0 +1,37 @@
+html, body {
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'EricssonHilda';
+    src: url('./fonts/EricssonHilda-Medium.ttf') format('truetype');
+}
+
+#renderCanvas {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    touch-action: none;
+}
+
+#uiFront {
+    position:relative;
+    top: 100px;
+    height: 50%;
+    width: 30%;
+    background-color: #FF000033;
+    z-index: 1;
+  }
+
+  #uiFrontMini {
+      position:relative;
+      //top: 100px;
+      height: 4%;
+      width: 7%;
+      background-color: #00000077;
+      z-index: 1;
+    }
