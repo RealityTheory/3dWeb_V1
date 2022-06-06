@@ -1,9 +1,20 @@
-let global_ambientMusic = "/assets/sounds/ambient1_LaFollia.mp3"
+//Original
+//let global_ambientMusic = "/assets/sounds/ambient1_LaFollia.mp3"
 
 //file locations:
-let fileFolderLocation = "/assets/3D/Deep/";
+//let fileFolderLocation = "/assets/3D/Deep/";
+//let fileName = "deep.babylon";
+//let globalVideosFolder = "/assets/videos/"
+//End of original
+
+// modified
+let global_ambientMusic = "assets/sounds/ambient1_LaFollia.mp3"
+
+//file locations:
+let fileFolderLocation = "assets/3D/Deep/";
 let fileName = "deep.babylon";
-let globalVideosFolder = "/assets/videos/"
+let globalVideosFolder = "assets/videos/"
+// end of modified
 
 let global_parallaxMultiplierX = 0.6;
 let global_parallaxMultiplierY = 0.6;
